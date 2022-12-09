@@ -6,7 +6,7 @@ const Square = ({ onClick, value }) => {
     return (
       <button className="square" 
         onClick={onClick}>
-        {props.value}
+        {value}
       </button>
     )
 }
