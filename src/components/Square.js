@@ -10,7 +10,6 @@ export default class Square extends React.Component {
         onClick={() => { this.props.onClick() }}>
         {this.props.value}
       </button>
-
     )
   }
 }
