@@ -10,7 +10,7 @@ export default class Board extends Component {
   render() {
     return (
       <div>
-        <div className="status">Next Plaver : X,O</div>
+        <div className="status">Next Plaver : X , O</div>
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
