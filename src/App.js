@@ -71,7 +71,7 @@ function App() {
 
   return (
     <div className="game">
-      <h1>Welcome To DJ's Game!!</h1>
+      <h1>Welcome To DJ's Game!</h1>
       <div className="game-board">
         <Board squares={current.squares} onClick={(i) => handleClick(i)} />
       </div>
